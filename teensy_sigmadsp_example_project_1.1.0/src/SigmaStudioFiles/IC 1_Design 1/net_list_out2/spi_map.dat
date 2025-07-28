@@ -1,0 +1,12 @@
+DCInpAlg1_2 0
+PulseAlg1freq_step_3 1
+PulseAlg1freq_th_3 2
+PulseAlg1ison_3 3
+PulseAlg1isRounded_3 4
+VoltageControlledDelay1940NoZipAlgwLimit1buffersize_4 5
+ZeroCompareAlg1output1 6
+SingleBandLevelDet1TCONST_7 7
+SingleBandLevelDet1hold_7 8
+SingleBandLevelDet1decay_7 9
+stereomux1940ns10_8 10
+stereomux1940ns11_8 11

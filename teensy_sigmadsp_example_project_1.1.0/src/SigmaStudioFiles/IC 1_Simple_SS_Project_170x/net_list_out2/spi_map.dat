@@ -1,0 +1,17 @@
+PulseAlg1freq_step_1 0
+PulseAlg1freq_th_1 1
+PulseAlg1ison_1 2
+PulseAlg1isRounded_1 3
+SWGain1940DBAlg1target_3 4
+SWGain1940DBAlg1step_3 5
+EQ1940Single10B1_4 6
+EQ1940Single11B1_4 7
+EQ1940Single12B1_4 8
+EQ1940Single11A1_4 9
+EQ1940Single12A1_4 10
+EQ1940Single20B1_5 11
+EQ1940Single21B1_5 12
+EQ1940Single22B1_5 13
+EQ1940Single21A1_5 14
+EQ1940Single22A1_5 15
+ZeroCompareAlg1output1 16

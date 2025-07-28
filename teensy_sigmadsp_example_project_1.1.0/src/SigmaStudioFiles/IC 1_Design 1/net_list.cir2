@@ -1,0 +1,11 @@
+0 ICSigma100In1 O_C0_A0_P1_out Link5 O_C0_A0_P2_out Link6
+1 DCInpAlg1 O_C33_A0_P1_out Link4
+2 PulseAlg1 O_C82_A0_P1_out Link7
+3 VoltageControlledDelay1940NoZipAlgwLimit1 I_C15_A0_P1_in Link5 I_C15_A0_P2_in Link4 O_C15_A0_P3_out Link0
+4 GPOAlg1 I_C84_A0_P1_in Link7
+5 ZeroCompareAlg1 I_C91_A0_P1_in Link7 O_C91_A0_P2_out Link1
+6 SingleBandLevelDet1 I_C116_A0_P1_in Link5
+7 stereomux1940ns1 I_C44_A0_P3_in Link5 I_C44_A0_P4_in Link6 I_C44_A0_P5_in Link0 I_C44_A0_P6_in Link6 O_C44_A0_P1_out Link2 O_C44_A0_P2_out Link3
+8 GPOAlg2 I_C86_A0_P1_in Link1
+9 ICSigma100Out3 I_C108_A0_P1_in Link2
+10 ICSigma100Out4 I_C110_A0_P1_in Link3

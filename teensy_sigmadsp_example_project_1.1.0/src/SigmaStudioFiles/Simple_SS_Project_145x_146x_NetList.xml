@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- *
+ * This software is distributed in the hope that it will be useful,
+ * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+ * CONDITIONS OF ANY KIND, without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * This software may only be used to program products purchased from
+ * Analog Devices for incorporation by you into audio products that
+ * are intended for resale to audio product end users. This software
+ * may not be distributed whole or in any part to third parties.
+ *
+ * Copyright © 2020 Analog Devices, Inc. All rights reserved.
+ */
+-->
+<!--NetList XML file-->
+<NetList>
+    <IC name=" IC 1 " type="ADAU1467">
+        <Schematic>
+            <Algorithm name="CheckSumAlg1" friendlyname="CheckSum Algorithm" cell="CheckSum1 " />
+            <Algorithm name="PulseS300Alg1" friendlyname="Pulse Generator" cell="LED_Pulse ">
+                <Link pin="O_C506_A0_P1_out" dir="out" link="Link0" />
+            </Algorithm>
+            <Algorithm name="ICInput3ADAU145X1" friendlyname="ADAU145x Inputs 32-39" cell="Input1 ">
+                <Link pin="O_C131_A0_P1_out" dir="out" link="Link4" />
+                <Link pin="O_C131_A0_P2_out" dir="out" link="Link3" />
+            </Algorithm>
+            <Algorithm name="GPOAlg3003" friendlyname="General Purpose Output" cell="GPO1 ">
+                <Link pin="I_C381_A0_P1_in" dir="in" link="Link0" />
+            </Algorithm>
+            <Algorithm name="HWGainADAU145XAlg1" friendlyname="Gain (HW slew)" cell="Single_Volume ">
+                <Link pin="I_C79_A0_P1_in" dir="in" link="Link4" />
+                <Link pin="I_C79_A0_P3_in" dir="in" link="Link3" />
+                <Link pin="O_C79_A0_P2_out" dir="out" link="Link1" />
+                <Link pin="O_C79_A0_P4_out" dir="out" link="Link2" />
+            </Algorithm>
+            <Algorithm name="EQS300MultiDPHWSlewP1Alg1" friendlyname="Multi-Channel HW Slew - Double Precision" cell="Left_Filter ">
+                <Link pin="I_C24_A0_P1_in" dir="in" link="Link1" />
+                <Link pin="O_C24_A0_P2_out" dir="out" link="Link5" />
+            </Algorithm>
+            <Algorithm name="EQS300MultiDPHWSlewP1Alg2" friendlyname="Multi-Channel HW Slew - Double Precision" cell="Right_Filter ">
+                <Link pin="I_C52_A0_P1_in" dir="in" link="Link2" />
+                <Link pin="O_C52_A0_P2_out" dir="out" link="Link6" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X1" friendlyname="Output" cell="Output1 ">
+                <Link pin="I_C9_A0_P1_in" dir="in" link="Link5" />
+                <Link pin="I_C9_A0_P2_in" dir="in" link="Link6" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X5" friendlyname="Output" cell="Output1_5 ">
+                <Link pin="I_C19_A0_P1_in" dir="in" link="Link5" />
+                <Link pin="I_C19_A0_P2_in" dir="in" link="Link6" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X3" friendlyname="Output" cell="Output1_3 ">
+                <Link pin="I_C3_A0_P1_in" dir="in" link="Link5" />
+                <Link pin="I_C3_A0_P2_in" dir="in" link="Link6" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X6" friendlyname="Output" cell="Output1_6 ">
+                <Link pin="I_C22_A0_P1_in" dir="in" link="Link5" />
+                <Link pin="I_C22_A0_P2_in" dir="in" link="Link6" />
+            </Algorithm>
+        </Schematic>
+    </IC>
+</NetList>
